@@ -1,0 +1,43 @@
+https://developer-portfolio-1hanzla100.vercel.app/ && https://damian.drygiel.com/
+^Inspiration
+
+{{https://codepen.io/mjswensen/pen/HAEJo ->  Used this}}  || https://codepen.io/yoannhel/pen/sJpDj || https://codepen.io/yemon/pen/YrPmQr || {https://codepen.io/alphardex/details/WNNVJeZ -> has typescript and scss}
+^ Use this to change between -> Grad Student | Budding Developer | UI/UX | Android | PWA Enthusiast | AI & ML
+
+
+https://codepen.io/noeldelgado/details/pGwFx
+^ Use this on skills or project
+
+https://codepen.io/rusjames/details/uAFhE || https://codepen.io/thiagoteles/pen/ogoxLw
+^ Typing Animation If Usefull
+
+https://codepen.io/MarioDesigns/pen/woJgeo
+^ Contact me || connect with me
+
+https://codepen.io/mo7amedk7alid29/pen/dRoMwo
+^ TimeLine
+
+https://codepen.io/seanmccaffery/details/xBpbG
+^ Button Animation
+
+https://codepen.io/goodkatz/details/LYPGxQz
+^ CSS waves Animation
+
+//DONE
+https://codepen.io/drygiel/pen/KbhmA
+^ Signature Animation
+
+https://codepen.io/MightyShaban/details/CIfdj
+^ Scroll
+
+https://codepen.io/jstn/pen/zuDst
+^NAV bar anim
+
+https://codepen.io/eehayman/pen/qdGZJr
+^ PArallax
+
+https://codepen.io/celincky/details/zdqso
+^good inspi
+
+https://codepen.io/jh3y/full/vzqVWa
+^Buittiful Text effects
