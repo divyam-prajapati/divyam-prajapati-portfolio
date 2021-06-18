@@ -62,23 +62,6 @@ header .nav-items a:hover {
     letter-spacing: 2px;
 }
 
-@media screen and (max-width: 600px) {
-    .nav-items {
-        margin-top: 2px;
-    }
-
-    header .nav-items a {
-        font-size: 0.8rem;
-    }
-
-    header .nav-items a:hover {
-        font-size: 1rem;
-    }
-
-    header .nav-items a .magic {
-        visibility: hidden;
-    }
-}
 /* HEADER */
 
 /* HOME */
@@ -105,8 +88,8 @@ header .nav-items a:hover {
     overflow: hidden;
 }
 .home .bg-logo {
-    height: 96vh;
-    position: relative;
+    height: 600px;
+    position: sticky;
     width: auto;
     top: 0%;
     bottom: 0%;
@@ -142,15 +125,21 @@ header .nav-items a:hover {
     font-family: 'Poppins';
     font-weight: 500;
     color: #000;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
+    background: linear-gradient(-45deg, hsla(133, 100%, 45%, 1),  hsla(187, 100%, 50%, 1));
+	background-size: 200% 200%;
     animation: gradient 15s ease infinite;
     /* background: linear-gradient(-135deg, hsla(133, 100%, 45%, 1) 0%, hsla(187, 100%, 50%, 1) 100%); */
     border: none;
     border-radius: 8px;
     margin-top: 6rem;
-    cursor: grab;
+    cursor: pointer;
 }
+
+.home .text-container .dresume:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 24px rgba(255, 255, 255, .16);
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -162,36 +151,7 @@ header .nav-items a:hover {
 		background-position: 0% 50%;
 	}
 }
-    @media screen and (max-width: 600px) {
-        .home .text-container .hello {
-            font-size: 2.375rem;
-        }
-        .home .text-container .name {
-            font-size: 4rem;
-        }
-        .home .text-container .grad-text{
-            font-size: 0.75rem;
-        }
-        .about .text-container .content {
-            margin: 4rem 6rem 4rem 6rem;
-            font-size: 0.6rem;
-        }
-        .home .bg-logo {
-            height: 50vh
-        }
-        .home .text-container .dresume {
-            margin-top: 3rem;
-            font-size: 1rem;
-        }
-        .skills .box-container .box {
-            width: 3rem;
-            height: 3rem;
-        }
-        .skills .box-container {
-            margin: 3rem 8rem 3rem 8rem;
-        }
-    }
-    /* Media Queries */
+    
 /* HOME */
 
 
@@ -233,11 +193,79 @@ header .nav-items a:hover {
 /* Projects */
 
 .projects {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: transparent;
 }
 
+.projects .title {
+    margin-top: 6rem;
+    font-size: 3rem;
+    font-family: 'Exo';
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+}
+
+.projects .container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    margin-bottom: 16.5rem;
+}
+
+.projects .container .wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(255, 250, 255, 0.1);
+    padding: 1.6rem 1rem 1.6rem 1rem;
+    border-radius: 10px;
+    margin: 6rem 12rem 0rem 12rem;
+}
+
+.projects .container .wrapper .d-img {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .container .wrapper .d-img img {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+}
+.projects .container .wrapper .prj-text {
+    text-align: left;
+    font-size: 1rem; 
+    font-family: 'Poppins';
+    color: #FFF;
+    margin-left: 3rem;
+}
+.projects .container .wrapper .prj-text .a-head {
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+.projects .container .wrapper .prj-text .a-body {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+.projects .container .wrapper .prj-text .a-link {
+    margin-top: 3rem;
+    letter-spacing: 1px;
+    color: #FFFAFF;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 400;
+}
+.projects .container .wrapper .prj-text .a-link:hover {
+    color: #FFF;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: oblique;
+    text-decoration: underline;
+}
 /* Projects */
 
 /* skills */
@@ -287,17 +315,66 @@ header .nav-items a:hover {
 
 /* skills */
 
-
-/* education */
+/* Education */
 
 .education {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: #000;
+    color: #FFF;
 }
 
-/* education */
+.education .title {
+    margin-top: 6rem;
+    font-size: 3rem;
+    font-family: 'Exo';
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+}
 
+/* .education .container {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin-top: 3rem;
+    margin-bottom: 16.5rem; */
+} */
+
+.education .edu-text {
+    text-align: center;
+    font-size: 1rem; 
+    font-family: 'Poppins';
+    color: #FFF;
+}
+/* .education .container .edu-text .a-head {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #FFF;
+    letter-spacing: 0.5px;
+} */
+.education .edu-text .a-body {
+    text-align: justify;
+    font-weight: 300;
+    font-family: 'Poppins';
+    color: #FFF;
+    margin: 3rem 14rem 16rem 14rem;
+}
+.education .edu-text .a-body a {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    color: #FFF;
+    margin-top: 3rem;
+}
+.education .edu-text .a-body a:hover {
+    color: #FFF;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+/* Education */
 
 /* contact */
 
@@ -322,6 +399,7 @@ header .nav-items a:hover {
     left: 0%;
     right: 0%; 
     margin: auto auto; 
+    image-rendering: pixelated;
 }
 
 
@@ -333,7 +411,7 @@ header .nav-items a:hover {
             left: 0%;
             right: 0%; 
             margin: 3rem auto; 
-        }
+        } 
         
         .contact .container .sig path {
             fill: none;
@@ -391,7 +469,7 @@ header .nav-items a:hover {
         
         @keyframes i-dot {
             0%, 33.5% {
-            transform: translate3d(0, -200px, 0);
+            transform: translate3d(0, 0, -500px);
             visibility: hidden;
             }
             35% {
@@ -409,7 +487,7 @@ header .nav-items a:hover {
         
         @keyframes j-dot {
             0%, 70% {
-            transform: translate3d(0, -200px, 0);
+            transform: translate3d(0, 0, -500px);
             visibility: hidden;
             }
             80% {
@@ -427,7 +505,7 @@ header .nav-items a:hover {
         
         @keyframes p-i-dot {
             0%, 90% {
-            transform: translate3d(0, -200px, 0);
+            transform: translate3d(0, 0, -200px);
             visibility: hidden;
             }
             94% {
@@ -545,3 +623,59 @@ footer p .name {
     font-family: 'EXO';
 }
 /* foter */
+
+/* Media Queries */
+/* @media screen and (max-width: 600px) {
+    .home .text-container .hello {
+        font-size: 2.375rem;
+    }
+    .home .text-container .name {
+        font-size: 2.6rem;
+    }
+    .home .text-container .grad-text{
+        font-size: 0.75rem;
+    }
+    .about .text-container .content {
+        margin: auto;
+        font-size: 0.3rem;
+    }
+    .home .bg-logo {
+        text-align: center;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        margin: auto auto;
+        height: 60vh; 
+    }
+    .home .text-container .dresume {
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+    .skills .box-container .box {
+        width: 3rem;
+        height: 3rem;
+    }
+    .skills .box-container {
+        margin: 3rem 8rem 3rem 8rem;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .nav-items {
+        margin-top: 2px;
+    }
+
+    header .nav-items a {
+        font-size: 0.8rem;
+    }
+
+    header .nav-items a:hover {
+        font-size: 1rem;
+    }
+
+    header .nav-items a .magic {
+        visibility: hidden;
+    }
+}*/
+/* Media Queries */
