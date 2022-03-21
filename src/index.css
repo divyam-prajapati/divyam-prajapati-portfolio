@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poor+Story&display=swap');
+
+:root {
+    --font-family: 'Megrim', 'Poppins', sans-serif;
+    --font-family-text: 'Poor Story', sans-serif;
+
+    --color-primary: #0F1624;
+    --color-text: #FFFAFF;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    --signature-anim-time: 6s;
+}

@@ -1,0 +1,183 @@
+.portfolio__header {
+    display: flex;
+    padding: 8rem 0;
+}
+.portfolio__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__header-content-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 156px;
+    letter-spacing: 0.05em;
+}
+
+.portfolio__header-content h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0.36em;
+}
+
+.portfolio__header-content h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+}
+
+.portfolio__header-content-scroll {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-top: 5rem;
+}
+.portfolio__header-content-scroll p {
+    font-family: var(--font-family-text);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-white);
+    letter-spacing: 0.04em;
+}
+
+@media screen and (max-width: 1050px) {
+    .portfolio__header-content h1 {
+        font-size: 112px;
+    }
+    .portfolio__header-content h2 {
+        font-size: 48px;
+    }
+    .portfolio__header-content h3 {
+        font-size: 24px;
+    }
+    .portfolio__header-content-scroll p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio__header-content h1 {
+        font-size: 72px;
+    }
+    .portfolio__header-content h2 {
+        font-size: 36px;
+    }
+    .portfolio__header-content h3 {
+        font-size: 20px;
+    }
+    .portfolio__header-content-scroll p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .portfolio__header-content h1 {
+        font-size: 64px;
+        margin-top: -1rem;
+    }
+    .portfolio__header-content h2 {
+        margin-top: -2rem;
+        font-size: 30px;
+    }
+    .portfolio__header-content h3 {
+        font-size: 24px;
+    }
+    .portfolio__header-content-scroll p{
+        font-size: 14px;
+    }
+    .portfolio__header-content-scroll {
+        margin-top: 10rem;
+    }
+}
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation-delay: 2s;
+}
+@-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+}
+@keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+}
+
+.text-shadow-drop-center {
+	-webkit-animation: text-shadow-drop-center 0.6s both;
+	        animation: text-shadow-drop-center 0.6s both;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(255, 255, 255, 1);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(255, 255, 255, 0.65);
+    }
+}
+@keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(255, 255, 255, 1);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(255, 255, 255, 0.65);
+    }
+}
+
+.move {
+    -webkit-animation: fade_move_down 4s ease-in-out infinite;
+    -moz-animation:    fade_move_down 4s ease-in-out infinite;
+    animation:         fade_move_down 4s ease-in-out infinite;
+}
+@keyframes fade_move_down {
+    0%   { transform:translate(0,-10px); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { transform:translate(0,10px); opacity: 0; }
+}
+  
