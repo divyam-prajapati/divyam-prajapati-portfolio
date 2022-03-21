@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/divyam-prajapati-portfolio/static/css/main.6fa81b73.css",
+    "main.js": "/divyam-prajapati-portfolio/static/js/main.d20dd388.js",
+    "static/media/d.png": "/divyam-prajapati-portfolio/static/media/d.94fa2bd6dca2f82aa250.png",
+    "static/media/WM.png": "/divyam-prajapati-portfolio/static/media/WM.057edf47f2788bfa316b.png",
+    "static/media/FR.png": "/divyam-prajapati-portfolio/static/media/FR.f56d7cde153b80d82a35.png",
+    "static/media/ET.png": "/divyam-prajapati-portfolio/static/media/ET.f1501db406dc5648ac98.png",
+    "static/media/logo.svg": "/divyam-prajapati-portfolio/static/media/logo.6f50ce7d1ca6a4e924b028f9a421f1c3.svg",
+    "static/media/instagram.svg": "/divyam-prajapati-portfolio/static/media/instagram.3ae70f47825dd8f660984e43df799cc8.svg",
+    "static/media/discord.svg": "/divyam-prajapati-portfolio/static/media/discord.a746d408f8d49ffca7241c35bda59c44.svg",
+    "static/media/github.svg": "/divyam-prajapati-portfolio/static/media/github.703d6e6170f0bb9c67eed989c6bf1510.svg",
+    "static/media/LinkedIn.svg": "/divyam-prajapati-portfolio/static/media/LinkedIn.fe652f2baf6cc75d80283fe6ceaa2f12.svg",
+    "index.html": "/divyam-prajapati-portfolio/index.html",
+    "static/media/google.svg": "/divyam-prajapati-portfolio/static/media/google.0447ec9f439c492a459aade15abe6768.svg",
+    "static/media/arrow-down.svg": "/divyam-prajapati-portfolio/static/media/arrow-down.fd5dc1381bfdfe5025a6eb0bfe5c11f0.svg",
+    "main.6fa81b73.css.map": "/divyam-prajapati-portfolio/static/css/main.6fa81b73.css.map",
+    "main.d20dd388.js.map": "/divyam-prajapati-portfolio/static/js/main.d20dd388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fa81b73.css",
+    "static/js/main.d20dd388.js"
+  ]
+}
