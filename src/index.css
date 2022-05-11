@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poor+Story&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 :root {
-    --font-family: 'Megrim', 'Poppins', sans-serif;
-    --font-family-text: 'Poor Story', sans-serif;
+  --font-family: "Megrim";
+  --font-family-text: "Josefin Sans";
+  --font-family-title: "Poppins";
 
-    --color-primary: #0F1624;
+  /* --color-primary: #0F1624;
     --color-text: #FFFAFF;
     --color-white: #FFFFFF;
-    --color-black: #000000;
+    --color-black: #000000; */
 
-    --signature-anim-time: 6s;
+  --color-primary: linear-gradient(90deg, #ece9e6 0%, #ffffff 100%);
+  --color-text: #101010;
+  --color-white: #fff;
+  --color-black: #010101;
+  --color-lgb: rgb(69, 69, 69, 0.16);
+
+  --signature-anim-time: 6s;
 }
